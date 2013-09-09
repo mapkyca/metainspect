@@ -4,3 +4,6 @@
 [submodule "php-mf2"]
 	path = php-mf2
 	url = https://github.com/indieweb/php-mf2.git
+[submodule "absolute-url-deriver"]
+	path = absolute-url-deriver
+	url = git@github.com:webignition/absolute-url-deriver.git
