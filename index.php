@@ -45,10 +45,19 @@
 			<pre><?= print_r(\ogp\Parser::parse($content['content']), true); ?></pre>
 			
 			<h2>MF2</h2>
-			<pre><?php
-			$parser = new \mf2\Parser($content['content']);
-			print_r( $parser->parse());
-			?></pre>
+			<?php
+			if ($parser = new \mf2\Parser($content['content'])) {
+				echo "<pre>";
+				print_r( $parser->parse());
+				echo "</pre>";
+			}
+			else
+			{
+				?>
+					<b>Errrp! No microformats found... if this site is yours, you might want to add some Indieweb Microformats in order to help others parse your content! Check out <a href="http://microformats.org/wiki/microformats2">http://microformats.org/wiki/microformats2</a>
+				<?php
+			}
+			?>
 		<?php } ?>
 	</body>
 </html>
