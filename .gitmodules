@@ -1,0 +1,6 @@
+[submodule "php-ogp"]
+	path = php-ogp
+	url = https://github.com/mapkyca/php-ogp.git
+[submodule "php-mf2"]
+	path = php-mf2
+	url = https://github.com/indieweb/php-mf2.git
