@@ -7,3 +7,6 @@
 [submodule "absolute-url-deriver"]
 	path = absolute-url-deriver
 	url = git@github.com:webignition/absolute-url-deriver.git
+[submodule "url"]
+	path = url
+	url = git@github.com:webignition/url.git
