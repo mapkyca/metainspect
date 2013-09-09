@@ -1,5 +1,6 @@
 <?php
 
+	require_once('absolute-url-deriver/src/webignition/AbsoluteUrlDeriver/AbsoluteUrlDeriver.php');
 	require_once('php-ogp/ogp/Parser.php');
 	require_once('php-mf2/mf2/Parser.php');
 
