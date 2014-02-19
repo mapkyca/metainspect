@@ -2,7 +2,7 @@
 
 	require_once('absolute-url-deriver/src/webignition/AbsoluteUrlDeriver/AbsoluteUrlDeriver.php');
 	require_once('php-ogp/ogp/Parser.php');
-	require_once('php-mf2/mf2/Parser.php');
+	require_once('php-mf2/Mf2/Parser.php');
 
 		function getUrl($url) {
             global $version;
